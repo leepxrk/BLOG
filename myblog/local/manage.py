@@ -1,0 +1,1 @@
+/home/BLOG/myblog/manage.py
