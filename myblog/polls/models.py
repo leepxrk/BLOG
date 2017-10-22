@@ -8,6 +8,6 @@ class Qusetion(models.Model):
 
 
 class Choice(models.Model):
-    qusetion = models.Foreignkey(Qusetion)
+    qusetion = models.ForeignKey(Qusetion)
     Choice_text = models.CharField(max_length = 200)
     votes = models.IntegerField(default = 0)
