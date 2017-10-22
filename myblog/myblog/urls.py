@@ -21,5 +21,5 @@ from calc import views as calc_views
 urlpatterns = [
     url(r'^$',blog_views.index),
     url(r'^admin/', admin.site.urls),
-    url(r'^$','calc.blog_views.add',name = 'add'),
+    url(r'^add/$','calc.blog_views.add',name = 'add'),
 ]
