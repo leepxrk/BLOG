@@ -15,7 +15,7 @@ list(range(99))
 
 temp = input('备选项目')
 a = temp()
-print (a
+print a
 
 
 
