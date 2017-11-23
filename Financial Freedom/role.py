@@ -1,11 +1,36 @@
-from django.shortcuts import render
-from django.http import HttpResponse
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
-# Create your views here.
-def add(request):
-    a = request.GET.get('a',0)
-    b = request.GET.get('b',0)
-    c = int(a) + int(b)
-    return HttpResponse(str(c))
+# import time
+# print (time.time())
 
-# request.GET 类似字典，因此这里用 request.GET.get('a',0)，当没有传递a的时候，将a默认为0
+
+
+# def income(income):
+
+
+
+
+
+
+class Role:
+
+    def setname(self,name):
+        self.name = name
+    
+    def getname(self):
+        return self.name
+
+    def greet(self):
+        print "hello.world! I'm %s." % self.name
+
+
+
+
+
+
+
+
+
+# Product_Manage
+
