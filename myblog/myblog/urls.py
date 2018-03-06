@@ -22,6 +22,6 @@ urlpatterns = [
     url(r'^$',blog_views.index),
     url(r'^add/$',calc_views.add,name = 'add'),
     url(r'^admin/', admin.site.urls),
-    url(r'^blog/index/$','blog.view.index'),
+    #url(r'^blog/index/$','blog.view.index'),
 
 ]
