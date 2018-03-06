@@ -13,7 +13,7 @@
 
 
 
-class Role:
+class Role(Role_name):
 
     def setname(self,name):
         self.name = name
@@ -27,10 +27,17 @@ class Role:
 
 
 
+def balance():
+    balance = income - spending + balance
+    return balance
 
 
+def income():
 
 
+def spending():
 
 # Product_Manage
+
+
 

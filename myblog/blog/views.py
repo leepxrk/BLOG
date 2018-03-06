@@ -4,4 +4,6 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(requset):
-	return HttpResponse(u"my first Django blog")
+	return HttpResponse(u"<H1>my first Django blog</h1>")
+	
+
